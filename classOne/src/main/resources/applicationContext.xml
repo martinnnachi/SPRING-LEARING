@@ -12,4 +12,10 @@
         <constructor-arg ref="myFortune"/>
     </bean>
 
+    <bean id="myCricketCoach"
+          class="com.example.classone.CricketCoach">
+
+        <!-- Set up setter injection -->
+        <property name="fortuneService" ref="myFortune"/>
+    </bean>
 </beans>

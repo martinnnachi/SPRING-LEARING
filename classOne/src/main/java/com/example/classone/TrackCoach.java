@@ -4,6 +4,7 @@ public class TrackCoach implements Coach {
 
     private FortuneService fortuneService;
 
+    // Constructor Injection
     public TrackCoach(FortuneService myFortuneService) {
         fortuneService = myFortuneService;
     }
