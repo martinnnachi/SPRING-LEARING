@@ -6,10 +6,11 @@ public class HappyFortuneService implements FortuneService {
 
     @Override
     public String getFortune() {
-        String[] fortune = new String[3];
-        fortune[0] = "Well done bro!";
-        fortune[1] = "You did it!";
-        fortune[2] = "Fortune favours the bold!";
+        String[] fortune = {"Well done bro!",
+                "You did it!",
+                "Fortune favours the bold!",
+                "You're almost there!",
+                "Nothing can stop you!"};
 
         Random generator = new Random();
         int randomIndex = generator.nextInt( fortune.length );
