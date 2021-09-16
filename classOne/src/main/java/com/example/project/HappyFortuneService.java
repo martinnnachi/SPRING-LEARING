@@ -1,4 +1,4 @@
-package com.example.classone;
+package com.example.project;
 
 import java.util.Random;
 

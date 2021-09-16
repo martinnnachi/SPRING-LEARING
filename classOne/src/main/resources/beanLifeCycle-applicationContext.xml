@@ -5,11 +5,11 @@
 
 
     <bean id="myFortune"
-          class="com.example.classone.HappyFortuneService">
+          class="com.example.project.HappyFortuneService">
     </bean>
 
     <bean id="myCoach"
-          class="com.example.classone.TrackCoach"
+          class="com.example.project.TrackCoach"
           init-method="doMyStartupStuff"
           destroy-method="doMyCleanupStuff">
         <constructor-arg ref="myFortune"/>
