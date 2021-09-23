@@ -1,8 +1,8 @@
 <configuration>
 
     <include resource="org/springframework/boot/logging/logback/base.xml"/>
-    <logger name="com.martinnnachi" level="DEBUG"/>
-    <logger name="org.springframework" level="DEBUG"/>
+    <logger name="com.martinnnachi" level="INFO"/>
+    <logger name="org.springframework" level="INFO"/>
     <logger name="org.springframework.boot" level="INFO"/>
     <logger name="org.thymeleaf" level="INFO"/>
 

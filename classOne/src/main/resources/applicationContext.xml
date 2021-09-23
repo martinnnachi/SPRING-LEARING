@@ -14,7 +14,7 @@
           class="com.example.project.TrackCoach">
         <constructor-arg ref="myFortune"/>
     </bean>
-    
+
     <bean id="myCricketCoach"
           class="com.example.project.CricketCoach">
 
