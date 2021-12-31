@@ -1,4 +1,4 @@
-package com.hellokoding.springboot.view;
+package com.martinnnachi.springboot.application.view;
 
 
 import org.springframework.stereotype.Controller;
@@ -11,14 +11,12 @@ import javax.servlet.http.HttpServletRequest;
 public class HelloWorldController {
 
     // Need a controller method to show the initial HTML form
-
     @RequestMapping("/showForm")
     public String showForm() {
         return "helloworld-form";
     }
 
     // Need c controller method to process the HTML form
-
     @RequestMapping("/processForm")
     public String processForm() {
         return "helloworld";
@@ -37,7 +35,7 @@ public class HelloWorldController {
         theName = theName.toUpperCase();
 
         // create the message
-        String result = "Yo! " + theName;
+        String result = "Yo " + theName + "!";
 
         // add message to the model
         model.addAttribute( "message", result );
