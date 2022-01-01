@@ -15,13 +15,13 @@ public class HelloWorldController {
     // Need a controller method to show the initial HTML form
     @RequestMapping("/showForm")
     public String showForm() {
-        return "helloworld-form";
+        return "helloWorld-form";
     }
 
     // Need c controller method to process the HTML form
     @RequestMapping("/processForm")
     public String processForm() {
-        return "helloworld";
+        return "helloWorld";
     }
 
     // new controller method to read form data
@@ -42,7 +42,7 @@ public class HelloWorldController {
         // add message to the model
         model.addAttribute( "message", result );
 
-        return "helloworld";
+        return "helloWorld";
     }
 
     @RequestMapping("/processFormVersionThree")
@@ -57,7 +57,7 @@ public class HelloWorldController {
         // add message to the model
         model.addAttribute( "message", result );
 
-        return "helloworld";
+        return "helloWorld";
     }
 
 
