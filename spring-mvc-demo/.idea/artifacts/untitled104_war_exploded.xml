@@ -5,7 +5,7 @@
       <element id="javaee-facet-resources" facet="untitled104/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="untitled104" />
+          <element id="module-output" name="spring_mvc_demo_contd" />
         </element>
       </element>
     </root>
