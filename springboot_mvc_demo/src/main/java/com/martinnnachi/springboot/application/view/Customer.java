@@ -1,5 +1,7 @@
 package com.martinnnachi.springboot.application.view;
 
+import com.martinnnachi.springboot.application.validation.CourseCode;
+
 import javax.validation.constraints.*;
 
 public class Customer {
@@ -19,6 +21,9 @@ public class Customer {
     @Pattern(regexp = "^(([A-Z][0-9]{1,2})|(([A-Z][A-HJ-Y][0-9]{1,2})|(([A-Z][0-9][A-Z])|([A-Z][A-HJ-Y][0-9]?[A-Z])))) [0-9][A-Z]{2}$",
             message = "please enter the right format")
     private String postCode;
+
+    @CourseCode
+    private String courseCode;
 
     public String getFirstName() {
         return firstName;
@@ -50,5 +55,13 @@ public class Customer {
 
     public void setPostCode(String postCode) {
         this.postCode = postCode;
+    }
+
+    public String getCourseCode() {
+        return courseCode;
+    }
+
+    public void setCourseCode(String courseCode) {
+        this.courseCode = courseCode;
     }
 }
