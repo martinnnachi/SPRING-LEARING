@@ -26,7 +26,9 @@ public class CustomerController {
     public String processForm(@Valid @ModelAttribute("customer") Customer theCustomer,
                               BindingResult theBindingResult) {
 
-        System.out.println("Last name: | " + theCustomer.getLastName() + " |");
+        System.out.println( "Last name: | " + theCustomer.getLastName() + " |" );
+        System.out.println("Binding Result: " + theBindingResult);
+        System.out.println("\n\n\n\n");
 
         if (theBindingResult.hasErrors()) {
             return "customer-form";
@@ -40,9 +42,9 @@ public class CustomerController {
     // resolve issue for our validation
 
     @InitBinder
-    public void initBinder(WebDataBinder dataBinder){
+    public void initBinder(WebDataBinder dataBinder) {
 
-        StringTrimmerEditor stringTrimmerEditor = new StringTrimmerEditor(true);
+        StringTrimmerEditor stringTrimmerEditor = new StringTrimmerEditor( true );
         dataBinder.registerCustomEditor( String.class, stringTrimmerEditor );
 
     }
