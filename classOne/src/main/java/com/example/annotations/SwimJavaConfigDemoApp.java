@@ -12,7 +12,6 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 @Slf4j
 public class SwimJavaConfigDemoApp {
 
-
     public static void main(String[] args) {
         SpringApplication.run( SwimJavaConfigDemoApp.class, args );
         Logger logger = LoggerFactory.getLogger( ClassOneApplication.class );
