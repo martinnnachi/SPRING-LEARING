@@ -27,7 +27,7 @@ public class CreateDemo {
 //            InstructorDetail tempInstructorDetail = new InstructorDetail( "https://martcodes.com/youtube", "love to code!" );
 
             Instructor tempInstructor = new Instructor( "Elesie", "Warenya", "warenya@mart.com" );
-            InstructorDetail tempInstructorDetail = new InstructorDetail( "https://warenya.com/youtube", "love singing!" );
+            InstructorDetail tempInstructorDetail = new InstructorDetail( "https://warenya.com/youtube", "love singing" );
 
 //            Instructor tempInstructor = new Instructor( "Gloria", "Amiya-Nnachi", "amiya@mart.com" );
 //            InstructorDetail tempInstructorDetail = new InstructorDetail( "https://amiyacodes.com/youtube", "Gospel music!" );
