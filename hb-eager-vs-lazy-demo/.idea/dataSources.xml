@@ -19,7 +19,7 @@ C:/Users/nnach/IdeaProjects/PREPPING FOR WORK/SPRING LEARNING/hibernate-tutorial
       <jdbc-url>jdbc:mysql://localhost:3306/hb_student_tracker?useSSL=false&amp;serverTimezone=UTC</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="@localhost" uuid="db2c873f-5aed-49bd-a258-ab272f9c5df5">
+    <data-source source="LOCAL" name="@localhost" uuid="2b4854be-9a0a-450b-8262-644da374f1d8">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
