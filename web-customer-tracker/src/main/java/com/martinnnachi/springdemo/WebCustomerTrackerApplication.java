@@ -1,15 +1,13 @@
-package com.martinnnachi.springboot.application;
+package com.martinnnachi.springdemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-
 @SpringBootApplication
-public class SpringbootMvcDemoApplication {
-
+public class WebCustomerTrackerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run( SpringbootMvcDemoApplication.class, args );
+        SpringApplication.run( WebCustomerTrackerApplication.class, args );
     }
 
 }

@@ -10,105 +10,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0264a2b-ab7b-485b-ae94-8280f4808135" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/untitled104_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/JAX_WS_Glassfish___JAX_WS_2_2_RI___Metro_1_X___JWSDP_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_17_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_17_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_17_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_17_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_17_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_17_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_17_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_17_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_MVC_5_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/META-INF/application.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastInoset.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/aopalliance-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/gmbal-api-only.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ha-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl-1.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl-api-1.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jaxb-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jaxb-impl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jaxb-xjc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jaxws-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jaxws-rt.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jaxws-tools.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jsr181-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mail.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/management-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mimepull.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/policy.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/saaj-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/saaj-impl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-aop-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-aspects-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-beans-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-context-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-context-support-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-core-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-expression-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-instrument-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-jdbc-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-jms-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-messaging-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-orm-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-oxm-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-test-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-tx-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-web-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-webmvc-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/stax-ex.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/stax2-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/streambuffer.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/woodstox-core-asl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/mvc/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/spring-mvc-demo-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/main-menu.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_mvc_demo_contd/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_mvc_demo_contd/lib/aopalliance-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_mvc_demo_contd/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_mvc_demo_contd/lib/spring-aop-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_mvc_demo_contd/lib/spring-aspects-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_mvc_demo_contd/lib/spring-beans-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_mvc_demo_contd/lib/spring-context-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_mvc_demo_contd/lib/spring-context-support-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_mvc_demo_contd/lib/spring-core-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_mvc_demo_contd/lib/spring-expression-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_mvc_demo_contd/lib/spring-instrument-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_mvc_demo_contd/lib/spring-jdbc-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_mvc_demo_contd/lib/spring-jms-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_mvc_demo_contd/lib/spring-messaging-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_mvc_demo_contd/lib/spring-orm-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_mvc_demo_contd/lib/spring-oxm-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_mvc_demo_contd/lib/spring-test-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_mvc_demo_contd/lib/spring-tx-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_mvc_demo_contd/out/production/spring_mvc_demo_contd/com/martinnnachi/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_mvc_demo_contd/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_mvc_demo_contd/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_mvc_demo_contd/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_mvc_demo_contd/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../classOne/src/main/java/com/example/annotations/SwimJavaConfigDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../classOne/src/main/java/com/example/annotations/SwimJavaConfigDemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/out/production/hibernate-tutorial/com/martinnnachi/hibernate/demo/CreateDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/out/production/hibernate-tutorial/com/martinnnachi/hibernate/demo/DeleteDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/out/production/hibernate-tutorial/com/martinnnachi/hibernate/demo/entity/Instructor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/out/production/hibernate-tutorial/com/martinnnachi/hibernate/demo/entity/InstructorDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-eager-vs-lazy-demo/target/classes/com/martinnnachi/hibernate/demo/EagerLazyDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-eager-vs-lazy-demo/target/classes/com/martinnnachi/hibernate/demo/FetchJoinDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-customer-tracker/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-customer-tracker/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-customer-tracker/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-customer-tracker/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-customer-tracker/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-customer-tracker/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-customer-tracker/.jpb/persistence-units.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-customer-tracker/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-customer-tracker/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-customer-tracker/META-INF/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-customer-tracker/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-customer-tracker/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-customer-tracker/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-customer-tracker/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-customer-tracker/src/main/java/com/martinnnachi/springdemo/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-customer-tracker/src/main/java/com/martinnnachi/springdemo/testdb/TestJdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-customer-tracker/src/main/java/com/martinnnachi/webcustomertracker/WebCustomerTrackerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-customer-tracker/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-customer-tracker/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-customer-tracker/src/main/webapp/WEB-INF/view/list-customers.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-customer-tracker/web-customer-tracker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_mvc_demo_contd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_mvc_demo_contd.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mvc_demo_contd/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_mvc_demo_contd/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mvc_demo_contd/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_mvc_demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot_mvc_demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_mvc_demo/src/main/java/com/martinnnachi/springboot/application/SpringbootMvcDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot_mvc_demo/src/main/java/com/martinnnachi/springboot/application/SpringbootMvcDemoApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,10 +71,14 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\plugins\maven\lib\maven3" />
+        <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -370,6 +311,8 @@
       <workItem from="1633368511652" duration="2058000" />
       <workItem from="1634904747786" duration="4455000" />
       <workItem from="1634911872273" duration="699000" />
+      <workItem from="1645555224288" duration="384000" />
+      <workItem from="1645556873801" duration="39000" />
     </task>
     <servers />
   </component>
@@ -386,7 +329,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
