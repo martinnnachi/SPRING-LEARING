@@ -1,6 +1,5 @@
 package com.martinnnachi.springdemo.testdb;
 
-import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class TestJdbc {
@@ -12,7 +11,7 @@ public class TestJdbc {
         String password = "springstudent";
         try{
             System.out.println("Connecting to database: " + jdbcUrl);
-            Connection myConnection = DriverManager.getConnection(jdbcUrl, username, password);
+            DriverManager.getConnection( jdbcUrl, username, password );
 
             System.out.println("connection Successful!");
         }catch(Exception exc){

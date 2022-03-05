@@ -4,60 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a182163-7080-4c32-aadf-9379c49f05f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/out/production/hibernate-tutorial/com/martinnnachi/hibernate/demo/CreateDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/out/production/hibernate-tutorial/com/martinnnachi/hibernate/demo/DeleteDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/out/production/hibernate-tutorial/com/martinnnachi/hibernate/demo/entity/Instructor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/out/production/hibernate-tutorial/com/martinnnachi/hibernate/demo/entity/InstructorDetail.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hb-eager-vs-lazy-demo/target/classes/com/martinnnachi/hibernate/demo/EagerLazyDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hb-eager-vs-lazy-demo/target/classes/com/martinnnachi/hibernate/demo/FetchJoinDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/META-INF/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/WebCustomerTrackerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/testdb/TestJdbc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/list-customers.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-customer-tracker.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-mvc-demo/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc-demo/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-mvc-demo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc-demo/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-mvc-demo/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-mvc-demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc-demo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-mvc-demo/spring_mvc_demo_contd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc-demo/spring_mvc_demo_contd.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_mvc_demo_contd/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_mvc_demo_contd/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_mvc_demo_contd/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_mvc_demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot_mvc_demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_mvc_demo/src/main/java/com/martinnnachi/springboot/application/SpringbootMvcDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot_mvc_demo/src/main/java/com/martinnnachi/springboot/application/SpringbootMvcDemoApplication.java" afterDir="false" />
+    <list default="true" id="5a182163-7080-4c32-aadf-9379c49f05f4" name="Changes" comment="New Project setup">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/config/DBConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/testdb/TestJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/testdb/TestJdbc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-customer-tracker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web-customer-tracker.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
@@ -68,15 +55,11 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
+  <component name="KotlinCodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\plugins\maven\lib\maven3" />
-      </MavenGeneralSettings>
-    </option>
   </component>
   <component name="ProjectId" id="25Naqkhifthh0MdqBwrC0bkIVqE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -88,6 +71,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -98,13 +82,17 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/HELP.md" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.mvn/wrapper" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../springboot_mvc_demo/pom.xml" />
   </component>
@@ -125,6 +113,7 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
+      <command value="mvn install" />
       <command value="mvn clean install" />
     </option>
   </component>
@@ -137,7 +126,7 @@
   </component>
   <component name="RunManager" selected="Spring Boot.WebCustomerTrackerApplication">
     <configuration name="TestJdbc" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.martinnnachi.testdb.TestJdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.martinnnachi.springdemo.testdb.TestJdbc" />
       <module name="web-customer-tracker" />
       <extension name="coverage">
         <pattern>
@@ -158,6 +147,7 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.martinnnachi.springdemo.WebCustomerTrackerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -203,6 +193,13 @@
       <updated>1645370199874</updated>
       <workItem from="1645370222692" duration="16182000" />
       <workItem from="1645612892415" duration="316000" />
+      <workItem from="1646383566564" duration="104000" />
+      <workItem from="1646383686015" duration="483000" />
+      <workItem from="1646472161412" duration="22000" />
+      <workItem from="1646472197650" duration="63000" />
+      <workItem from="1646472275132" duration="253000" />
+      <workItem from="1646472545747" duration="681000" />
+      <workItem from="1646486813035" duration="7950000" />
     </task>
     <servers />
   </component>

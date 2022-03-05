@@ -19,16 +19,35 @@
       <configuration>
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
-        <datasource-mapping />
-        <naming-strategy-map />
+        <datasource-mapping>
+          <factory-entry name="entityManagerFactory" value="d70c8f05-ba85-4c24-83b7-e7468dc9fce6" />
+          <factory-entry name="web-customer-tracker" value="d70c8f05-ba85-4c24-83b7-e7468dc9fce6" />
+        </datasource-mapping>
+        <naming-strategy-map>
+          <unit-entry name="web-customer-tracker" />
+        </naming-strategy-map>
       </configuration>
     </facet>
     <facet type="Spring" name="Spring">
       <configuration>
+        <fileset id="fileset2" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/src/main/java/com/martinnnachi/springdemo/WebCustomerTrackerApplication.java</file>
+          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/beanContext.xml</file>
+          <file>file://$MODULE_DIR$/src/main/java/com/martinnnachi/springdemo/config/BeanConfig.java</file>
+        </fileset>
+        <fileset id="fileset3" name="Spring Application Context (2)" removed="false">
+          <file>file://$MODULE_DIR$/src/main/java/com/martinnnachi/springdemo/WebCustomerTrackerApplication.java</file>
+        </fileset>
         <fileset id="fileset" name="Spring Mvc Crud Demo Servlet" removed="false">
           <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/spring-mvc-crud-demo-servlet.xml</file>
           <file>file://$MODULE_DIR$/src/main/java/com/martinnnachi/webcustomertracker/WebCustomerTrackerApplication.java</file>
         </fileset>
+      </configuration>
+    </facet>
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map />
+        <naming-strategy-map />
       </configuration>
     </facet>
   </component>
@@ -43,7 +62,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:2.6.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:2.6.4" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.6.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-logging:2.6.2" level="project" />
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.2.9" level="project" />
@@ -52,8 +71,6 @@
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-to-slf4j:2.17.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.17.0" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:jul-to-slf4j:1.7.32" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-core:5.3.14" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.3.14" level="project" />
     <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.29" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-json:2.6.2" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.13.1" level="project" />
@@ -63,20 +80,19 @@
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.1" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-web:5.3.14" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.14" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:5.3.14" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.3.14" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.3.14" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.3.14" level="project" />
     <orderEntry type="library" name="Maven: javax.servlet:jstl:1.2" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:2.6.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:2.6.4" level="project" />
     <orderEntry type="library" name="Maven: jakarta.annotation:jakarta.annotation-api:1.3.5" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.56" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-el:9.0.56" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:9.0.56" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.tomcat.embed:tomcat-embed-jasper:9.0.56" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.eclipse.jdt:ecj:3.18.0" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-devtools:2.6.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-devtools:2.6.4" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.6.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.6.2" level="project" />
     <orderEntry type="library" name="Maven: javax.validation:validation-api:2.0.1.Final" level="project" />
@@ -84,7 +100,7 @@
     <orderEntry type="library" name="Maven: jakarta.validation:jakarta.validation-api:2.0.2" level="project" />
     <orderEntry type="library" name="Maven: org.jboss.logging:jboss-logging:3.4.2.Final" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml:classmate:1.5.1" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-validation:2.6.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-validation:2.6.4" level="project" />
     <orderEntry type="library" name="Maven: org.hibernate:hibernate-core:5.6.5.Final" level="project" />
     <orderEntry type="library" name="Maven: javax.persistence:javax.persistence-api:2.2" level="project" />
     <orderEntry type="library" name="Maven: net.bytebuddy:byte-buddy:1.11.22" level="project" />
@@ -101,7 +117,15 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.sun.activation:jakarta.activation:1.2.2" level="project" />
     <orderEntry type="library" name="Maven: com.mchange:c3p0:0.9.5.5" level="project" />
     <orderEntry type="library" name="Maven: com.mchange:mchange-commons-java:0.2.19" level="project" />
-    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:8.0.27" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: mysql:mysql-connector-java:8.0.27" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.22" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-orm:5.3.16" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.14" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-core:5.3.14" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.3.14" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:5.3.14" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.3.14" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-dbcp:10.0.14" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-juli:10.0.14" level="project" />
   </component>
 </module>
