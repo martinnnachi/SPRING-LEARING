@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a182163-7080-4c32-aadf-9379c49f05f4" name="Changes" comment="New Project setup">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/config/DBConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/testdb/TestJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/testdb/TestJdbc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-customer-tracker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web-customer-tracker.iml" afterDir="false" />
-    </list>
+    <list default="true" id="5a182163-7080-4c32-aadf-9379c49f05f4" name="Changes" comment="New Project setup" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,7 +192,7 @@
       <workItem from="1646472197650" duration="63000" />
       <workItem from="1646472275132" duration="253000" />
       <workItem from="1646472545747" duration="681000" />
-      <workItem from="1646486813035" duration="7950000" />
+      <workItem from="1646486813035" duration="8324000" />
     </task>
     <servers />
   </component>
