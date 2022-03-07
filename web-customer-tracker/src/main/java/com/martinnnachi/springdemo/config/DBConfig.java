@@ -1,14 +1,11 @@
 package com.martinnnachi.springdemo.config;
 
 
-import org.hibernate.SessionFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
-import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 
 import javax.sql.DataSource;
@@ -47,18 +44,18 @@ public class DBConfig {
 
     private Properties hibernateProperties() {
         Properties properties = new Properties();
-        properties.put("hibernate.dialect", dialect);
-        properties.put("hibernate.hbm2ddl.auto", "update");
+        properties.put("spring.jpa.properties.hibernate.dialect", dialect);
+        properties.put("spring.jpa.hibernate.ddl-auto", "update");
         properties.put("hibernate.show_sql", "true");
         properties.put("hibernate.format_sql", "true");
         return properties;
     }
 
-    @Bean
-    @Autowired
-    public HibernateTransactionManager transactionManager(SessionFactory factory) {
-        HibernateTransactionManager transactionManager = new HibernateTransactionManager();
-        transactionManager.setSessionFactory(factory);
-        return transactionManager;
-    }
+//    @Bean
+//    @Autowired
+//    public HibernateTransactionManager transactionManager(SessionFactory factory) {
+//        HibernateTransactionManager transactionManager = new HibernateTransactionManager();
+//        transactionManager.setSessionFactory(factory);
+//        return transactionManager;
+//    }
 }
