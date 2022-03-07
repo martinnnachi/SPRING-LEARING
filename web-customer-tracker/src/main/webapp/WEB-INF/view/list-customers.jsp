@@ -6,6 +6,7 @@
 
 <head>
     <title>List Customers</title>
+    <link href="${pageContext.request.contextPath}/css/style.css" rel="stylesheet">
 
 </head>
 

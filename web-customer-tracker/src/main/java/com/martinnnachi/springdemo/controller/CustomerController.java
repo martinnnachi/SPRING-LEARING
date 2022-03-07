@@ -1,9 +1,10 @@
 package com.martinnnachi.springdemo.controller;
 
-import com.martinnnachi.springdemo.dao.CustomerDAO;
 import com.martinnnachi.springdemo.entity.Customer;
+import com.martinnnachi.springdemo.service.CustomerService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.List;
@@ -12,23 +13,23 @@ import java.util.List;
 @RequestMapping("/customer")
 public class CustomerController {
 
-	// need to inject the customer dao
-	public final CustomerDAO customerDAO;
+    // need to inject the customer service
+    public final CustomerService customerService;
 
-	public CustomerController(CustomerDAO customerDAO) {
-		this.customerDAO = customerDAO;
-	}
+    public CustomerController(CustomerService customerService) {
+        this.customerService = customerService;
+    }
 
-	@RequestMapping("/list")
-	public String listCustomers(Model theModel) {
+    @GetMapping("/list")
+    public String listCustomers(Model theModel) {
 
-		// get the customers from the dao
-		List<Customer> theCustomers = customerDAO.getCustomers();
+        // get the customers from the service
+        List<Customer> theCustomers = customerService.getCustomers();
 
-		// add the customers to the model
-		theModel.addAttribute( "customers", theCustomers );
-		
-		return "list-customers";
-	}
-	
+        // add the customers to the model
+        theModel.addAttribute( "customers", theCustomers );
+
+        return "list-customers";
+    }
+
 }

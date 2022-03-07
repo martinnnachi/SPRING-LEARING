@@ -5,7 +5,6 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;
 import org.springframework.stereotype.Repository;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -20,7 +19,6 @@ public class CustomerDAOImpl implements CustomerDAO {
     }
 
     @Override
-    @Transactional
     public List<Customer> getCustomers() {
 
         // get the current hibernate session
@@ -31,7 +29,6 @@ public class CustomerDAOImpl implements CustomerDAO {
 
         // execute query and get result list
         // return the results
-
         return theQuery.getResultList();
     }
 }

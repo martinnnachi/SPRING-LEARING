@@ -51,11 +51,4 @@ public class DBConfig {
         return properties;
     }
 
-//    @Bean
-//    @Autowired
-//    public HibernateTransactionManager transactionManager(SessionFactory factory) {
-//        HibernateTransactionManager transactionManager = new HibernateTransactionManager();
-//        transactionManager.setSessionFactory(factory);
-//        return transactionManager;
-//    }
 }
