@@ -11,7 +11,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/dao/CustomerDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/dao/CustomerDAOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/service/CustomerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/service/CustomerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer-form.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/list-customers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/list-customers.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -224,7 +223,7 @@
       <workItem from="1646557192121" duration="712000" />
       <workItem from="1646591080038" duration="870000" />
       <workItem from="1646659446246" duration="17866000" />
-      <workItem from="1646748717926" duration="2126000" />
+      <workItem from="1646748717926" duration="4329000" />
     </task>
     <task id="LOCAL-00001" summary="fixed code, jsp file loading">
       <created>1646495890559</created>

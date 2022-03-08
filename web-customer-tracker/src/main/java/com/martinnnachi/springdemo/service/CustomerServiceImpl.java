@@ -10,7 +10,7 @@ import java.util.List;
 @Service
 public class CustomerServiceImpl implements CustomerService {
 
-private final CustomerDAO customerDAO;
+    private final CustomerDAO customerDAO;
 
     public CustomerServiceImpl(CustomerDAO customerDAO) {
         this.customerDAO = customerDAO;
@@ -25,12 +25,18 @@ private final CustomerDAO customerDAO;
     @Override
     @Transactional
     public void saveCustomer(Customer theCustomer) {
-        customerDAO.saveCustomer(theCustomer);
+        customerDAO.saveCustomer( theCustomer );
     }
 
     @Override
     @Transactional
     public Customer getCustomer(int theId) {
-        return customerDAO.getCustomer(theId);
+        return customerDAO.getCustomer( theId );
+    }
+
+    @Override
+    @Transactional
+    public void deleteCustomer(int theId) {
+        customerDAO.deleteCustomer( theId );
     }
 }
