@@ -2,6 +2,7 @@ package com.martinnnachi.springdemo.controller;
 
 import com.martinnnachi.springdemo.entity.Customer;
 import com.martinnnachi.springdemo.service.CustomerService;
+import com.martinnnachi.springdemo.util.SortUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -20,10 +21,19 @@ public class CustomerController {
     }
 
     @GetMapping("/list")
-    public String listCustomers(Model theModel) {
+    public String listCustomers(Model theModel, @RequestParam(required = false) String sort) {
 
         // get the customers from the service
-        List<Customer> theCustomers = customerService.getCustomers();
+       List<Customer> theCustomers = null;
+
+       // check for sort field
+        if (sort != null) {
+            int theSortField = Integer.parseInt( sort );
+            theCustomers = customerService.getCustomers(theSortField);
+        }else {
+            // no sort field provided ... default to sorting by last name
+            theCustomers = customerService.getCustomers( SortUtils.LAST_NAME );
+        }
 
         // add the customers to the model
         theModel.addAttribute( "customers", theCustomers );

@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a182163-7080-4c32-aadf-9379c49f05f4" name="Changes" comment="fixed code, jsp file loading">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/util/SortUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/controller/CustomerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/dao/CustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/dao/CustomerDAO.java" afterDir="false" />
@@ -29,8 +30,8 @@
       <list>
         <option value="com.haulmont.jpb.JpaEntity" />
         <option value="Class" />
-        <option value="Interface" />
         <option value="Jsp File" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -111,7 +112,7 @@
     <property name="project.structure.side.proportion" value="0.39195403" />
     <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet.css" />
     <property name="show.migrate.to.gradle.popup" value="false" />
-    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../springboot_mvc_demo/pom.xml" />
+    <property name="two.files.diff.last.used.file" value="$USER_HOME$/Downloads/crm-tracker-bonus-sort/web-customer-tracker-with-sorting/WebContent/WEB-INF/view/list-customers.jsp" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -223,7 +224,7 @@
       <workItem from="1646557192121" duration="712000" />
       <workItem from="1646591080038" duration="870000" />
       <workItem from="1646659446246" duration="17866000" />
-      <workItem from="1646748717926" duration="6114000" />
+      <workItem from="1646748717926" duration="8674000" />
     </task>
     <task id="LOCAL-00001" summary="fixed code, jsp file loading">
       <created>1646495890559</created>
