@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-demo-aop" />
+        <module name="springboot-demo-aop-pointcut-declarations" />
         <module name="springboot_mvc_demo" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot-demo-aop" options="-parameters" />
+      <module name="springboot-demo-aop-pointcut-declarations" options="-parameters" />
       <module name="springboot_mvc_demo" options="-parameters" />
     </option>
   </component>
