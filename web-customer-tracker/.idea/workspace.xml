@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a182163-7080-4c32-aadf-9379c49f05f4" name="Changes" comment="fixed code, jsp file loading">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/util/SortUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/dao/CustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/dao/CustomerDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/dao/CustomerDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/dao/CustomerDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/service/CustomerServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/list-customers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/list-customers.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -224,7 +218,9 @@
       <workItem from="1646557192121" duration="712000" />
       <workItem from="1646591080038" duration="870000" />
       <workItem from="1646659446246" duration="17866000" />
-      <workItem from="1646748717926" duration="8674000" />
+      <workItem from="1646748717926" duration="9749000" />
+      <workItem from="1646831716635" duration="21000" />
+      <workItem from="1646831752795" duration="914000" />
     </task>
     <task id="LOCAL-00001" summary="fixed code, jsp file loading">
       <created>1646495890559</created>
