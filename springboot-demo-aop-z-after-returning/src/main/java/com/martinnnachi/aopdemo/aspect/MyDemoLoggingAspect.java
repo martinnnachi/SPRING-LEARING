@@ -31,14 +31,13 @@ public class MyDemoLoggingAspect {
         System.out.println( "\n=======>>>> Executing AfterReturning on method: " + ANSI_GREEN + method + ANSI_RESET );
 
         // print out results of the method call
-        System.out.println( "\n=======>>>> Result is: " + ANSI_GREEN + result + ANSI_RESET +"\n" );
+        System.out.println( "\n=======>>>> Result is: " + ANSI_GREEN + result + ANSI_RESET + "\n" );
 
         // let's post-process the data...modify it
 
         // convert the account names to uppercase
         convertAccountNamesToUpperCase( result );
-        System.out.println( "\n=======>>>> Result is: " + ANSI_GREEN + result + ANSI_RESET +"\n" );
-
+        System.out.println( "\n=======>>>> Result is: " + ANSI_GREEN + result + ANSI_RESET + "\n" );
 
 
     }
