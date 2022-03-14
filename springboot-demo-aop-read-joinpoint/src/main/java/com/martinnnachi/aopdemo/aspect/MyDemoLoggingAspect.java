@@ -13,14 +13,19 @@ import org.springframework.stereotype.Component;
 @Order(3)
 public class MyDemoLoggingAspect {
 
+
+    public static final String ANSI_RESET = "\u001B[0m";
+    public static final String ANSI_CYAN = "\u001B[36m";
+    public static final String ANSI_RED = "\u001B[31m";
+
     @Before("com.martinnnachi.aopdemo.aspect.AopExpressions.forDaoPackageNoGetterSetter()")
     public void beforeAddAccountAdvice(JoinPoint joinPoint) {
-        System.out.println( "\n=======>>> Executing @Before advice on methods" );
+        System.out.println( ANSI_CYAN + "\n=======>>> Executing @Before advice on methods" + ANSI_RESET );
 
         // display the method signature
         MethodSignature methodSig = (MethodSignature) joinPoint.getSignature();
 
-        System.out.println( "Method: " + methodSig );
+        System.out.println( ANSI_RED + "Method: " + methodSig + ANSI_RESET);
 
         // display method arguments
 

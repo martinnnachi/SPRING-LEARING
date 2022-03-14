@@ -10,9 +10,12 @@ import org.springframework.stereotype.Component;
 @Order(2)
 public class MyApiAnalyticsAspect {
 
+    public static final String ANSI_RESET = "\u001B[0m";
+    public static final String ANSI_YELLOW = "\u001B[33m";
+
     @Before("com.martinnnachi.aopdemo.aspect.AopExpressions.forDaoPackageNoGetterSetter()")
     public void performApiAnalytics() {
-        System.out.println( "\n=======>>> Performing API analytics" );
+        System.out.println( ANSI_YELLOW + "\n=======>>> Performing API analytics" + ANSI_RESET );
 
     }
 }
