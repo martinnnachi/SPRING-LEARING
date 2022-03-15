@@ -5,6 +5,8 @@ import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
 import org.aspectj.lang.reflect.MethodSignature;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
@@ -14,6 +16,8 @@ import java.util.List;
 @Component
 @Order(2)//
 public class MyDemoLoggingAspect {
+    
+    Logger logger = LoggerFactory.getLogger( getClass().getName() );
 
     public static final String ANSI_RESET = "\u001B[0m";
     public static final String ANSI_CYAN = "\u001B[36m";
@@ -26,7 +30,7 @@ public class MyDemoLoggingAspect {
 
         // print out the method we're advising on
         String method = proceedingJoinPoint.getSignature().toShortString();
-        System.out.println( "\n=======>>>> Executing @Around on method: " + ANSI_BLUE + method + ANSI_RESET );
+        logger.info( "\n=======>>>> Executing @Around on method: " + ANSI_BLUE + method + ANSI_RESET );
 
 
         // get beginning timestamp
@@ -40,7 +44,7 @@ public class MyDemoLoggingAspect {
 
         // compute duration
         long duration = end - begin;
-        System.out.println( "\n=======>>>> Duration: " + duration / 1000 + " seconds" );
+        logger.info( "\n=======>>>> Duration: " + duration / 1000 + " seconds" );
 
         return result;
     }
@@ -50,7 +54,7 @@ public class MyDemoLoggingAspect {
 
         // print out which method we're advising on
         String method = joinPoint.getSignature().toShortString();
-        System.out.println( "\n=======>>>> Executing After (Finally) on method: " + ANSI_BLUE + method + ANSI_RESET );
+        logger.info( "\n=======>>>> Executing After (Finally) on method: " + ANSI_BLUE + method + ANSI_RESET );
 
 
     }
@@ -60,10 +64,10 @@ public class MyDemoLoggingAspect {
 
         // print out which method we're advising on
         String method = joinPoint.getSignature().toShortString();
-        System.out.println( "\n=======>>>> Executing AfterThrowing on method: " + ANSI_GREEN + method + ANSI_RESET );
+        logger.info( "\n=======>>>> Executing AfterThrowing on method: " + ANSI_GREEN + method + ANSI_RESET );
 
         // log the exception
-        System.out.println( "\n=======>>>> The exception is: " + ANSI_RED + theExc + ANSI_RESET );
+        logger.info( "\n=======>>>> The exception is: " + ANSI_RED + theExc + ANSI_RESET );
     }
 
     // add new advice for AfterReturning on the findAccounts() method
@@ -72,16 +76,16 @@ public class MyDemoLoggingAspect {
 
         // print out which method we're advising on
         String method = joinPoint.getSignature().toShortString();
-        System.out.println( "\n=======>>>> Executing AfterReturning on method: " + ANSI_GREEN + method + ANSI_RESET );
+        logger.info( "\n=======>>>> Executing AfterReturning on method: " + ANSI_GREEN + method + ANSI_RESET );
 
         // print out results of the method call
-        System.out.println( "\n=======>>>> Result is: " + ANSI_GREEN + result + ANSI_RESET + "\n" );
+        logger.info( "\n=======>>>> Result is: " + ANSI_GREEN + result + ANSI_RESET + "\n" );
 
         // let's post-process the data...modify it
 
         // convert the account names to uppercase
         convertAccountNamesToUpperCase( result );
-        System.out.println( "\n=======>>>> Result is: " + ANSI_GREEN + result + ANSI_RESET + "\n" );
+        logger.info( "\n=======>>>> Result is: " + ANSI_GREEN + result + ANSI_RESET + "\n" );
 
     }
 
@@ -99,12 +103,12 @@ public class MyDemoLoggingAspect {
 
     @Before("com.martinnnachi.aopdemo.aspect.AopExpressions.forDaoPackageNoGetterSetter()")
     public void beforeAddAccountAdvice(JoinPoint joinPoint) {
-        System.out.println( ANSI_CYAN + "\n=======>>> Executing @Before advice on methods" + ANSI_RESET );
+        logger.info( ANSI_CYAN + "\n=======>>> Executing @Before advice on methods" + ANSI_RESET );
 
         // display the method signature
         MethodSignature methodSig = (MethodSignature) joinPoint.getSignature();
 
-        System.out.println( ANSI_RED + "Method: " + methodSig + ANSI_RESET );
+        logger.info( ANSI_RED + "Method: " + methodSig + ANSI_RESET );
 
         // display method arguments
 
@@ -114,11 +118,11 @@ public class MyDemoLoggingAspect {
 
         // loop through the args
         for (Object temArg : args) {
-            System.out.println( temArg );
+            logger.info( temArg.toString() );
             if (temArg instanceof Account account) {
 
-                System.out.println( "Account name: " + account.getName() );
-                System.out.println( "Account level: " + account.getLevel() );
+                logger.info( "Account name: " + account.getName() );
+                logger.info( "Account level: " + account.getLevel() );
             }
         }
 

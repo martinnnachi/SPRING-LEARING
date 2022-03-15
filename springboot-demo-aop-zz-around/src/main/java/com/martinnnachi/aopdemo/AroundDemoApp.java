@@ -2,11 +2,16 @@ package com.martinnnachi.aopdemo;
 
 import com.martinnnachi.aopdemo.config.DemoConfig;
 import com.martinnnachi.aopdemo.service.TrafficFortuneService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class AroundDemoApp {
 
     public static void main(String[] args) {
+
+        Logger logger = LoggerFactory.getLogger( AroundDemoApp.class.getName() );
+
 
         // read the config java class
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext( DemoConfig.class );
@@ -15,13 +20,13 @@ public class AroundDemoApp {
         TrafficFortuneService fortuneService = context.getBean( "trafficFortuneService", TrafficFortuneService.class );
 
 
-        System.out.println("\nMain Program: AroundDemoApp");
-        System.out.println("Calling getFortune");
+        logger.info( "\nMain Program: AroundDemoApp" );
+        logger.info( "Calling getFortune" );
 
         String data = fortuneService.getFortune();
-        System.out.println("\nMy fortune is: " + data);
+        logger.info( "\nMy fortune is: " + data );
 
-        System.out.println("Finished");
+        logger.info( "Finished" );
 
 
         // close the context
