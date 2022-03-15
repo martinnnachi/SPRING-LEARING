@@ -83,7 +83,6 @@
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-web:5.3.14" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:5.3.14" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.3.14" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.3.14" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.3.14" level="project" />
     <orderEntry type="library" name="Maven: javax.servlet:jstl:1.2" level="project" />
@@ -98,7 +97,7 @@
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.6.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.6.2" level="project" />
     <orderEntry type="library" name="Maven: javax.validation:validation-api:2.0.1.Final" level="project" />
-    <orderEntry type="library" name="Maven: org.hibernate.validator:hibernate-validator:7.0.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.hibernate.validator:hibernate-validator:7.0.3.Final" level="project" />
     <orderEntry type="library" name="Maven: jakarta.validation:jakarta.validation-api:2.0.2" level="project" />
     <orderEntry type="library" name="Maven: org.jboss.logging:jboss-logging:3.4.2.Final" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml:classmate:1.5.1" level="project" />
@@ -119,7 +118,7 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.sun.activation:jakarta.activation:1.2.2" level="project" />
     <orderEntry type="library" name="Maven: com.mchange:c3p0:0.9.5.5" level="project" />
     <orderEntry type="library" name="Maven: com.mchange:mchange-commons-java:0.2.19" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: mysql:mysql-connector-java:8.0.27" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: mysql:mysql-connector-java:8.0.28" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.22" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-orm:5.3.16" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.14" level="project" />
@@ -127,7 +126,10 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.3.14" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:5.3.14" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.3.14" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-dbcp:10.0.14" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-juli:10.0.14" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-dbcp:10.0.16" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-juli:10.0.16" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.aspectj:aspectjweaver:1.9.8" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains:annotations:23.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.3.16" level="project" />
   </component>
 </module>

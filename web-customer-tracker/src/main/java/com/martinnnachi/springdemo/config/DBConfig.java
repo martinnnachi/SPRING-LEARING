@@ -4,6 +4,7 @@ package com.martinnnachi.springdemo.config;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
@@ -13,6 +14,7 @@ import java.util.Properties;
 
 @PropertySource(value = { "classpath:application.properties" })
 @Configuration
+@EnableAspectJAutoProxy
 public class DBConfig {
 
     @Value("${spring.datasource.driver-class-name}")

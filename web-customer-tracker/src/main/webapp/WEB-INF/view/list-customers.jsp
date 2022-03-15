@@ -50,9 +50,9 @@
                 <c:param name="sort" value="<%=Integer.toString(SortUtils.EMAIL)%>"/>
             </c:url>
             <tr>
-                <th><a href="${sortLinkFirstName}">First Name</a> </th>
-                <th><a href="${sortLinkLastName}">Last Name</a> </th>
-                <th><a href="${SortLinkEmail}">Email</a> </th>
+                <th><a href="${sortLinkFirstName}">First Name</a></th>
+                <th><a href="${sortLinkLastName}">Last Name</a></th>
+                <th><a href="${SortLinkEmail}">Email</a></th>
                 <th>Action</th>
             </tr>
 
@@ -68,7 +68,6 @@
                 <c:url var="deleteLink" value="/customer/delete">
                     <c:param name="customerId" value="${tempCustomer.id}"/>
                 </c:url>
-
 
 
                 <tr>
