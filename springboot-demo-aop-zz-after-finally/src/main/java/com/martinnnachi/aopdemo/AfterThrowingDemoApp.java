@@ -6,7 +6,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 import java.util.List;
 
-public class AfterFinallyDemoApp {
+public class AfterThrowingDemoApp {
 
     public static void main(String[] args) {
 
@@ -21,7 +21,7 @@ public class AfterFinallyDemoApp {
 
         try {
             // add a boolean to simulate exceptions
-            boolean tripWire = false;
+            boolean tripWire = true;
             theAccounts = theAccountDAO.findAccounts( tripWire );
         } catch (Exception e) {
             System.out.println( "\n\nMain program caught exception: " + e );
