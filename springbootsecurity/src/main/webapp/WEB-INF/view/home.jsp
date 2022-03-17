@@ -7,6 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="security" uri="http://www.springframework.org/security/tags" %>
 
 <html>
 <head>
@@ -17,6 +18,16 @@
 <hr>
 
 <p>Welcome to the Securities Company Home Page</p>
+
+<hr>
+<!-- Displaying username and role -->
+<p>
+    User: <security:authentication property="principal.username"/>
+    <br><br>
+    Role(s): <security:authentication property="principal.authorities"/>
+</p>
+<hr>
+
 
 <!-- Add logout button -->
 <form:form action="${pageContext.request.contextPath}/logout" method="post">

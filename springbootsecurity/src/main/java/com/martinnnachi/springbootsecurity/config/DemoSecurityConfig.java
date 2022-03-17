@@ -24,10 +24,10 @@ public class DemoSecurityConfig extends WebSecurityConfigurerAdapter {
                         .roles( "EMPLOYEE" ) )
                 .withUser( users.username( "gloria" )
                         .password( "test123" )
-                        .roles( "MANAGER" ) )
+                        .roles( "EMPLOYEE", "MANAGER" ) )
                 .withUser( users.username( "edi" )
                         .password( "test123" )
-                        .roles( "ADMIN" ) );
+                        .roles( "EMPLOYEE", "ADMIN" ) );
     }
 
     @Override
