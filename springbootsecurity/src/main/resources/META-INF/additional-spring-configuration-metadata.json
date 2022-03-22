@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "connection.pool.initialPoolSize",
+      "type": "java.lang.String",
+      "description": "Description for connection.pool.initialPoolSize."
+  }
+] }
