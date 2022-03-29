@@ -7,10 +7,14 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+    <title>Martin Securities</title>
+</head>
+<body>
+<h2>Martin Securities Home Page</h2>
+<hr>
+
+Welcome to the Securities Company Home Page
+
+</body>
 </html>

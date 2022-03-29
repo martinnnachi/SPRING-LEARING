@@ -22,7 +22,7 @@ public class MyDemoLoggingAspect {
     public static final String ANSI_RED = "\u001B[31m";
     public static final String ANSI_GREEN = "\u001b[32m";
 
-    @AfterThrowing(pointcut = "execution(* com.martinnnachi.aopdemo.dao.AccountDAO.findAccounts())", throwing = "theExc")
+    @AfterThrowing(pointcut = "execution(* com.martinnnachi.aopdemo.dao.AccountDAO.findAccounts(..))", throwing = "theExc")
     public void afterThrowingFindAccountsAdvice(JoinPoint joinPoint, Throwable theExc) {
 
         // print out which method we're advising on
@@ -34,7 +34,7 @@ public class MyDemoLoggingAspect {
     }
 
     // add new advice for AfterReturning on the findAccounts() method
-    @AfterReturning(pointcut = "execution(* com.martinnnachi.aopdemo.dao.AccountDAO.findAccounts())", returning = "result")
+    @AfterReturning(pointcut = "execution(* com.martinnnachi.aopdemo.dao.AccountDAO.findAccounts(..))", returning = "result")
     public void afterReturningFindAccountsAdvice(JoinPoint joinPoint, List<Account> result) {
 
         // print out which method we're advising on
@@ -66,7 +66,7 @@ public class MyDemoLoggingAspect {
 
     @Before("com.martinnnachi.aopdemo.aspect.AopExpressions.forDaoPackageNoGetterSetter()")
     public void beforeAddAccountAdvice(JoinPoint joinPoint) {
-        System.out.println( ANSI_CYAN + "\n=======>>> Executing @Before advice on methods" + ANSI_RESET );
+        System.out.println( ANSI_CYAN + "\n=======>>>> Executing @Before advice on methods" + ANSI_RESET );
 
         // display the method signature
         MethodSignature methodSig = (MethodSignature) joinPoint.getSignature();

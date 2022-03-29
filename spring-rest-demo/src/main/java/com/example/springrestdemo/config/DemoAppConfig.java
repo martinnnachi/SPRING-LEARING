@@ -1,21 +1,21 @@
-package com.martinnnachi.springsecurity.config;
-
+package com.example.springrestdemo.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "com.martinnnachi.springsecurity")
+@ComponentScan("com.example.springrestdemo")
+@PropertySource("classpath:application.properties")
 public class DemoAppConfig {
 
-    // define a bean for the view resolver
     @Bean
-    public ViewResolver viewResolver(){
+    public ViewResolver viewResolver() {
         InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
 
         viewResolver.setPrefix( "/WEB-INF/view/" );
@@ -23,4 +23,6 @@ public class DemoAppConfig {
 
         return viewResolver;
     }
+
+
 }

@@ -5,12 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a182163-7080-4c32-aadf-9379c49f05f4" name="Changes" comment="fixed code, jsp file loading">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../springboot-demo-aop-z-after-throwing/src/main/java/com/martinnnachi/aopdemo/aspect/MyDemoLoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-demo-aop-z-after-throwing/src/main/java/com/martinnnachi/aopdemo/aspect/MyDemoLoggingAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootsecurity/src/main/webapp/WEB-INF/view/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../springbootsecurity/src/main/webapp/WEB-INF/view/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/src/main/java/com/martinnnachi/springsecurity/config/DemoAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springsecurity/src/main/java/com/martinnnachi/springsecurity/config/DemoAppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/src/main/java/com/martinnnachi/springsecurity/config/MySpringMvcDispatcherServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springsecurity/src/main/java/com/martinnnachi/springsecurity/config/MySpringMvcDispatcherServletInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/src/main/java/com/martinnnachi/springsecurity/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springsecurity/src/main/java/com/martinnnachi/springsecurity/controller/DemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/src/main/webapp/WEB-INF/view/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../springsecurity/src/main/webapp/WEB-INF/view/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/target/spring-security-test.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/target/spring-security-test/WEB-INF/classes/com/martinnnachi/springsecurity/config/DemoAppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/target/spring-security-test/WEB-INF/classes/com/martinnnachi/springsecurity/config/MySpringMvcDispatcherServletInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/target/spring-security-test/WEB-INF/classes/com/martinnnachi/springsecurity/controller/DemoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/target/spring-security-test/WEB-INF/lib/javax.servlet.jsp-api-2.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/target/spring-security-test/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/target/spring-security-test/WEB-INF/lib/spring-aop-5.3.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/target/spring-security-test/WEB-INF/lib/spring-beans-5.3.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/target/spring-security-test/WEB-INF/lib/spring-context-5.3.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/target/spring-security-test/WEB-INF/lib/spring-core-5.3.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/target/spring-security-test/WEB-INF/lib/spring-expression-5.3.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/target/spring-security-test/WEB-INF/lib/spring-jcl-5.3.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/target/spring-security-test/WEB-INF/lib/spring-web-5.3.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/target/spring-security-test/WEB-INF/lib/spring-webmvc-5.3.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/target/spring-security-test/WEB-INF/view/home.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/config/DBConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/config/DBConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/list-customers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/list-customers.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-customer-tracker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web-customer-tracker.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,6 +176,26 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.WebCustomerTrackerApplication">
+    <configuration default="true" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY">
+      <option name="adminPort" value="8005" />
+      <option name="contextPath" value="/web-customer-tracker" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="envOptions" />
+      <option name="passParentEnvironmentVariables" value="true" />
+      <option name="port" value="8080" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.53" />
+          <option name="number" value="0" />
+          <option name="path" value="C:\Users\nnach\Downloads\apache-tomcat-9.0.53\apache-tomcat-9.0.53" />
+          <option name="version" value="9.0.53.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestJdbc" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.martinnnachi.springdemo.testdb.TestJdbc" />
       <module name="web-customer-tracker" />
@@ -170,26 +219,6 @@
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.martinnnachi.springdemo.WebCustomerTrackerApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY">
-      <option name="adminPort" value="8005" />
-      <option name="contextPath" value="/web-customer-tracker" />
-      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
-      <option name="envOptions" />
-      <option name="passParentEnvironmentVariables" value="true" />
-      <option name="port" value="8080" />
-      <option name="tomcatInfo">
-        <TomcatInfo>
-          <option name="name" value="Apache Tomcat/9.0.53" />
-          <option name="number" value="0" />
-          <option name="path" value="C:\Users\nnach\Downloads\apache-tomcat-9.0.53\apache-tomcat-9.0.53" />
-          <option name="version" value="9.0.53.0" />
-        </TomcatInfo>
-      </option>
-      <option name="vmOptions" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -229,7 +258,10 @@
       <workItem from="1646748717926" duration="9749000" />
       <workItem from="1646831716635" duration="21000" />
       <workItem from="1646831752795" duration="1990000" />
-      <workItem from="1647371816303" duration="1391000" />
+      <workItem from="1647371816303" duration="1737000" />
+      <workItem from="1647439856323" duration="941000" />
+      <workItem from="1647444395595" duration="144000" />
+      <workItem from="1647444558273" duration="826000" />
     </task>
     <task id="LOCAL-00001" summary="fixed code, jsp file loading">
       <created>1646495890559</created>
