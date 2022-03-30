@@ -1,4 +1,4 @@
-package com.martinnnachi.springbootsecurity.config;
+package com.martinnnachi.springdemo.config;
 
 
 import com.mchange.v2.c3p0.ComboPooledDataSource;
@@ -11,19 +11,21 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.env.Environment;
 import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 import javax.sql.DataSource;
 import java.beans.PropertyVetoException;
 
-import static com.martinnnachi.springbootsecurity.ConsoleColours.CYAN_BOLD;
-import static com.martinnnachi.springbootsecurity.ConsoleColours.RESET;
+import static com.martinnnachi.springdemo.ConsoleColours.CYAN_BOLD;
+import static com.martinnnachi.springdemo.ConsoleColours.RESET;
+
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "com.martinnnachi.springbootsecurity")
+@ComponentScan(basePackages = "com.martinnnachi.springdemo")
 @PropertySource("classpath:application.properties")
-public class DemoAppConfig {
+public class DemoAppConfig implements WebMvcConfigurer {
 
     // set up a variable to hold the properties
 
@@ -35,6 +37,7 @@ public class DemoAppConfig {
     public DemoAppConfig(Environment env) {
         this.env = env;
     }
+
 
     // define a bean for the view resolver
     @Bean

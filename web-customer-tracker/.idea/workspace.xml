@@ -5,40 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a182163-7080-4c32-aadf-9379c49f05f4" name="Changes" comment="fixed code, jsp file loading">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot-demo-aop-z-after-throwing/src/main/java/com/martinnnachi/aopdemo/aspect/MyDemoLoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-demo-aop-z-after-throwing/src/main/java/com/martinnnachi/aopdemo/aspect/MyDemoLoggingAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springbootsecurity/src/main/webapp/WEB-INF/view/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../springbootsecurity/src/main/webapp/WEB-INF/view/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsecurity/src/main/java/com/martinnnachi/springsecurity/config/DemoAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springsecurity/src/main/java/com/martinnnachi/springsecurity/config/DemoAppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsecurity/src/main/java/com/martinnnachi/springsecurity/config/MySpringMvcDispatcherServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springsecurity/src/main/java/com/martinnnachi/springsecurity/config/MySpringMvcDispatcherServletInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsecurity/src/main/java/com/martinnnachi/springsecurity/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springsecurity/src/main/java/com/martinnnachi/springsecurity/controller/DemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsecurity/src/main/webapp/WEB-INF/view/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../springsecurity/src/main/webapp/WEB-INF/view/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsecurity/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsecurity/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsecurity/target/spring-security-test.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsecurity/target/spring-security-test/WEB-INF/classes/com/martinnnachi/springsecurity/config/DemoAppConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsecurity/target/spring-security-test/WEB-INF/classes/com/martinnnachi/springsecurity/config/MySpringMvcDispatcherServletInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsecurity/target/spring-security-test/WEB-INF/classes/com/martinnnachi/springsecurity/controller/DemoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsecurity/target/spring-security-test/WEB-INF/lib/javax.servlet.jsp-api-2.3.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsecurity/target/spring-security-test/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsecurity/target/spring-security-test/WEB-INF/lib/spring-aop-5.3.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsecurity/target/spring-security-test/WEB-INF/lib/spring-beans-5.3.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsecurity/target/spring-security-test/WEB-INF/lib/spring-context-5.3.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsecurity/target/spring-security-test/WEB-INF/lib/spring-core-5.3.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsecurity/target/spring-security-test/WEB-INF/lib/spring-expression-5.3.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsecurity/target/spring-security-test/WEB-INF/lib/spring-jcl-5.3.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsecurity/target/spring-security-test/WEB-INF/lib/spring-web-5.3.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsecurity/target/spring-security-test/WEB-INF/lib/spring-webmvc-5.3.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsecurity/target/spring-security-test/WEB-INF/view/home.jsp" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-crm-rest-demo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-crm-rest-demo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-crm-rest-demo/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-crm-rest-demo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-crm-rest-demo/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-crm-rest-demo/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-crm-rest-demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-crm-rest-demo/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-crm-rest-demo/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-crm-rest-demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-crm-rest-demo/src/main/java/com/martinnnachi/springdemo/rest/CustomerRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-crm-rest/src/main/java/com/martinnnachi/springdemo/config/DemoAppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-crm-rest/src/main/java/com/martinnnachi/springdemo/config/MySpringMvcDispatcherServletInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-customer-tracker-aop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web-customer-tracker-aop/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -144,6 +124,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="two.files.diff.last.used.file" value="$USER_HOME$/Downloads/crm-tracker-bonus-sort/web-customer-tracker-with-sorting/WebContent/WEB-INF/view/list-customers.jsp" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -262,6 +245,11 @@
       <workItem from="1647439856323" duration="941000" />
       <workItem from="1647444395595" duration="144000" />
       <workItem from="1647444558273" duration="826000" />
+      <workItem from="1648585717735" duration="36000" />
+      <workItem from="1648630101189" duration="34000" />
+      <workItem from="1648630372653" duration="105000" />
+      <workItem from="1648631092560" duration="423000" />
+      <workItem from="1648659178028" duration="208000" />
     </task>
     <task id="LOCAL-00001" summary="fixed code, jsp file loading">
       <created>1646495890559</created>

@@ -1,4 +1,4 @@
-package com.example.springrestdemo.config;
+package com.martinnnachi.springdemo.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
