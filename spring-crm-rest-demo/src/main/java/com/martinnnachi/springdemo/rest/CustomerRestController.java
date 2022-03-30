@@ -44,7 +44,7 @@ public class CustomerRestController {
 
     // add mapping for POST /customers - add a new customer
     @PostMapping("/customers")
-    public Customer addCustomer(@RequestBody Customer theCustomer){
+    public Customer addCustomer(@RequestBody Customer theCustomer) {
 
         // also, just in case they pass an id in JSON ... set id to 0
         // this is to force a save of a new item ... instead of update
@@ -54,6 +54,29 @@ public class CustomerRestController {
 
 
         return theCustomer;
+    }
+
+    // add mapping for PUT /customers - update existing customer
+    @PutMapping("/customers")
+    public Customer updateCustomer(@RequestBody Customer theCustomer) {
+
+        customerService.saveCustomer( theCustomer );
+
+        return theCustomer;
+    }
+
+    // add mapping for DELETE /customers/{customerId} - delete customer
+    @DeleteMapping("/customers/{customerId}")
+    public String deleteCustomer(@PathVariable int customerId) {
+
+        Customer tempCostumer = customerService.getCustomer( customerId );
+
+        if (tempCostumer == null) {
+            throw new CustomerNotFoundException( "No such customer: " + customerId );
+        }
+        customerService.deleteCustomer( customerId );
+
+        return "Deleted customer id: " + customerId;
     }
 
 
