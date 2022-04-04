@@ -5,20 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a182163-7080-4c32-aadf-9379c49f05f4" name="Changes" comment="fixed code, jsp file loading">
-      <change afterPath="$PROJECT_DIR$/../spring-crm-rest-demo/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-crm-rest-demo/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-crm-rest-demo/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-crm-rest-demo/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-crm-rest-demo/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-crm-rest-demo/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-crm-rest-demo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-crm-rest-demo/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-crm-rest-demo/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-crm-rest-demo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-crm-rest-demo/src/main/java/com/martinnnachi/springdemo/rest/CustomerRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-crm-rest/src/main/java/com/martinnnachi/springdemo/config/DemoAppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-crm-rest/src/main/java/com/martinnnachi/springdemo/config/MySpringMvcDispatcherServletInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web-customer-tracker-aop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web-customer-tracker-aop/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +43,31 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="cruddemo-02" />
+                    <option name="lastUsedInstant" value="1649098886" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="cruddemo-01" />
+                    <option name="lastUsedInstant" value="1649098885" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/.." />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -250,6 +261,7 @@
       <workItem from="1648630372653" duration="105000" />
       <workItem from="1648631092560" duration="423000" />
       <workItem from="1648659178028" duration="208000" />
+      <workItem from="1649085484224" duration="619000" />
     </task>
     <task id="LOCAL-00001" summary="fixed code, jsp file loading">
       <created>1646495890559</created>
