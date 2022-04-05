@@ -12,7 +12,7 @@ import java.util.List;
 @Service
 public class EmployeeServiceImpl implements EmployeeService {
 
-    private EmployeeDao employeeDao;
+    private final EmployeeDao employeeDao;
 
     @Autowired
     public EmployeeServiceImpl(@Qualifier("employeeDAOJpaImpl") EmployeeDao employeeDao) {
