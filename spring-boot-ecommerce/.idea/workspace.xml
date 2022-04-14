@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ff48ef0f-6476-4417-91f0-a1a0db5b9019" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../eCommerce Project/02-backend/spring-boot-ecommerce/src/main/java/com/martinnnachi/ecommerce/dao/ProductCategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eCommerce Project/02-backend/spring-boot-ecommerce/src/main/java/com/martinnnachi/ecommerce/dao/ProductCategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eCommerce Project/02-backend/spring-boot-ecommerce/src/main/java/com/martinnnachi/ecommerce/dao/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eCommerce Project/02-backend/spring-boot-ecommerce/src/main/java/com/martinnnachi/ecommerce/dao/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/martinnnachi/ecommerce/SpringBootEcommerceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/martinnnachi/ecommerce/SpringBootEcommerceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-customer-tracker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web-customer-tracker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-customer-tracker/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web-customer-tracker/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-customer-tracker/src/main/java/com/martinnnachi/springdemo/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web-customer-tracker/src/main/java/com/martinnnachi/springdemo/entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-customer-tracker/web-customer-tracker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../web-customer-tracker/web-customer-tracker.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="6knx7jdl" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27WdX0UYLRffLFZKCvjSgI3px2l" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "aspect.path.notification.shown": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="SpringBootEcommerceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-ecommerce" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.martinnnachi.ecommerce.SpringBootEcommerceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff48ef0f-6476-4417-91f0-a1a0db5b9019" name="Changes" comment="" />
+      <created>1649439815068</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649439815068</updated>
+      <workItem from="1649439816286" duration="267000" />
+      <workItem from="1649440089387" duration="22000" />
+      <workItem from="1649843296573" duration="44000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
