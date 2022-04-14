@@ -5,7 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a182163-7080-4c32-aadf-9379c49f05f4" name="Changes" comment="fixed code, jsp file loading">
+      <change beforePath="$PROJECT_DIR$/../eCommerce Project/02-backend/spring-boot-ecommerce/src/main/java/com/martinnnachi/ecommerce/dao/ProductCategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eCommerce Project/02-backend/spring-boot-ecommerce/src/main/java/com/martinnnachi/ecommerce/dao/ProductCategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eCommerce Project/02-backend/spring-boot-ecommerce/src/main/java/com/martinnnachi/ecommerce/dao/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eCommerce Project/02-backend/spring-boot-ecommerce/src/main/java/com/martinnnachi/ecommerce/dao/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-ecommerce/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-ecommerce/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-ecommerce/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-ecommerce/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-ecommerce/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-ecommerce/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-ecommerce/src/main/java/com/martinnnachi/ecommerce/SpringBootEcommerceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-ecommerce/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-ecommerce/src/test/java/com/martinnnachi/ecommerce/SpringBootEcommerceApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/martinnnachi/springdemo/entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-customer-tracker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web-customer-tracker.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,10 +35,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="com.haulmont.jpb.JpaEntity" />
         <option value="Class" />
         <option value="Jsp File" />
         <option value="Interface" />
+        <option value="com.haulmont.jpb.JpaEntity" />
       </list>
     </option>
   </component>
@@ -107,35 +121,24 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/HELP.md" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.mvn/wrapper" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.39195403" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="show.migrate.to.gradle.popup" value="false" />
-    <property name="two.files.diff.last.used.file" value="$USER_HOME$/Downloads/crm-tracker-bonus-sort/web-customer-tracker-with-sorting/WebContent/WEB-INF/view/list-customers.jsp" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "WebServerToolWindowFactoryState": "false",
+    "aspect.path.notification.shown": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -205,14 +208,13 @@
     </configuration>
     <configuration name="WebCustomerTrackerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="web-customer-tracker" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.martinnnachi.springdemo.WebCustomerTrackerApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.martinnnachi.springdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.martinnnachi.springdemo.WebCustomerTrackerApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -262,6 +264,7 @@
       <workItem from="1648631092560" duration="423000" />
       <workItem from="1648659178028" duration="208000" />
       <workItem from="1649085484224" duration="619000" />
+      <workItem from="1649842305544" duration="986000" />
     </task>
     <task id="LOCAL-00001" summary="fixed code, jsp file loading">
       <created>1646495890559</created>
