@@ -7,8 +7,8 @@ import com.martinnnachi.ecommerce.entity.Customer;
 import com.martinnnachi.ecommerce.entity.Order;
 import com.martinnnachi.ecommerce.entity.OrderItem;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
+import javax.transaction.Transactional;
 import java.util.Set;
 import java.util.UUID;
 
@@ -52,8 +52,19 @@ public class CheckoutServiceImpl implements CheckoutService {
     }
 
     private String generateOrderTrackingNumber() {
+
         // generate a random UUID number (UUID version-4)
+        // For details see: https://en.wikipedia.org/wiki/Universally_unique_identifier
         //
         return UUID.randomUUID().toString();
     }
 }
+
+
+
+
+
+
+
+
+
