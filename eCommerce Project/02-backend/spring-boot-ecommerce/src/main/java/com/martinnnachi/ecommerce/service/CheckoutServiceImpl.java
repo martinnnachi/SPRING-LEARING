@@ -42,13 +42,23 @@ public class CheckoutServiceImpl implements CheckoutService {
 
         // populate customer with order
         Customer customer = purchase.getCustomer();
+
+        // check to see if this is an existing customer
+        String theEmail = customer.getEmail();
+
+        Customer customerFromDB = customerRepository.findByEmail( theEmail );
+
+        if (customerFromDB != null) {
+            // we found them ... let's assign them accordingly
+            customer = customerFromDB;
+        }
         customer.add( order );
 
         // save to the database
-        customerRepository.save( customer);
+        customerRepository.save( customer );
 
         // return a response
-        return new PurchaseResponse(orderTrackingNumber);
+        return new PurchaseResponse( orderTrackingNumber );
     }
 
     private String generateOrderTrackingNumber() {
