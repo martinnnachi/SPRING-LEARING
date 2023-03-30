@@ -19,6 +19,7 @@ public class CustomerDAOImpl implements CustomerDAO {
         this.sessionFactory = sessionFactory;
     }
 
+
     @Override
     public List<Customer> getCustomers(int theSortField) {
 
